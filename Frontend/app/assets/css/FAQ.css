@@ -1,0 +1,14 @@
+ /* FAQ */
+
+
+ .transition-height {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+  }
+  
+  .transition-height-expanded {
+    max-height: 500px; /* or an appropriate value to accommodate the content */
+  }
+  
+  
